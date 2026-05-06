@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da Velha</title>    
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+    <div id="tabuleiro">
+        <button onclick="fazerJogada(0)">-</button>
+        <button onclick="fazerJogada(1)">-</button>
+        <button onclick="fazerJogada(2)">-</button><br>
+        <button onclick="fazerJogada(3)">-</button>
+        <button onclick="fazerJogada(4)">-</button>
+        <button onclick="fazerJogada(5)">-</button><br>
+        <button onclick="fazerJogada(6)">-</button>
+        <button onclick="fazerJogada(7)">-</button>
+        <button onclick="fazerJogada(8)">-</button><br>
+    </div>
+    <button id="btn-reset" onclick="resetarTabuleiro()">Resetar Tabuleiro</button>
+    
+
+    <p id="status">Vez do Jogador X</p>
+
+  
+    <script src="jogo.js"></script>
+</body>
+</html>
